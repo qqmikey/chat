@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='//cdn.muicss.com/mui-0.9.17/css/mui.css')
+        link(rel='stylesheet', href='/css/style.css')
+    body
+        block content
+    //script(src='/bundle.js')
+    script(src= scriptPath + '/bundle.js')

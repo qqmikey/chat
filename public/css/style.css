@@ -1,0 +1,20 @@
+body {
+    background-color: #ececec;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.di {
+    display: inline-block;
+}
+
+.messages-area {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding: 8px;
+    background-color: #fff;
+}
